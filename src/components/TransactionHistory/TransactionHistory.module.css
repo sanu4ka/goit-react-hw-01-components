@@ -1,0 +1,21 @@
+.transactionHistory {
+  table-layout: fixed;
+  width: 500px;
+  margin: 10px;
+  border-collapse: collapse;
+}
+thead {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: teal;
+}
+tbody {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+td {
+  border: 1px solid black;
+}

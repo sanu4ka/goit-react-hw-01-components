@@ -1,0 +1,20 @@
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  border: 2px solid rgb(240, 50, 214);
+  border-radius: 4px;
+}
+.offline {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: red;
+}
+
+.online {
+  composes: offline;
+  background-color: green;
+}
